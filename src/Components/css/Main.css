@@ -1,0 +1,137 @@
+body {
+    background-image: url(../../Assets/gradientbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.header-h1{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin:auto;
+}
+.navbar{
+    background-color: white;
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+    width: auto;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.navbar a{
+    color: rgb(27, 22, 22);
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    
+  
+}
+.navbar a:hover{
+    background-color:#2196F3;
+    border-style: hidden;
+    border-radius: 5px;
+    color: rgb(255, 254, 253);
+}
+/*Responsive*/
+@media screen and (max-width:500px){
+    .navbar{
+        background-color: rgb(255, 246, 246);
+        border-radius: 15px;
+        border-style: hidden;
+        padding: 0px; 
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        padding-bottom: 14px;
+        
+     }
+     .Profphoto{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width:350px){
+
+    .navbar {
+        color: rgb(27, 22, 22);
+        text-decoration: none;
+        padding: 8px;
+        font-family:'Roboto Condensed', sans-serif;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        
+      }
+}
+      
+.container-banner{
+    background-color: white;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Profphoto{
+    border-radius: 85px;
+    padding-top: 7px;
+    width: 200px;
+    height:200px;
+}
+.Name {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #2196F3;
+    font-weight: 900;
+}
+/*Footer*/
+
+.container-1{
+    color: #f1f1f1;
+    text-align: center;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 16px;
+   
+     
+}
+.contactimg{
+    border-style: hidden;
+    margin: 0px;
+    background-color: transparent;
+    border-radius: 90px;
+}
+
+.container-1 > a{
+    margin: 0%;
+    padding-left: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+span:hover{
+    text-decoration: none;
+    transform: scale(1.5);
+    
+}
+.mail{
+    text-decoration: none;
+    color: white;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mailmelogo{
+    border-style: hidden;
+    border-radius:5px;
+    width:15px;
+    height:15px;
+    
+}
